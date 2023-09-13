@@ -2,7 +2,7 @@
 //  forget password.swift
 //  Personal Finance Manger
 //
-//  Created by malindu pabasara on 2023-09-11.
+//  Created by Amalsha Pramod on 2023-09-11.
 //
 
 import SwiftUI
