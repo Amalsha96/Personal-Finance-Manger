@@ -2,7 +2,7 @@
 //  login View.swift
 //  Personal Finance Manger
 //
-//  Created by malindu pabasara on 2023-09-11.
+//  Created by Amalsha Pramod on 2023-09-11.
 //
 
 import SwiftUI
@@ -94,6 +94,8 @@ struct login_View: View {
                         label:{
                                          Text("Forgot Password?")
                                              .foregroundColor(.black)
+                            .underline()
+                            
                                          //    .padding()
                     })
                          
