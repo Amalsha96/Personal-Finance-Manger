@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+
+
 struct login_View: View {
     
     @State private var username = ""
@@ -107,9 +109,8 @@ struct login_View: View {
              
                 
             }
-        
-          
-        }
+    }
+    
     
 
 struct login_View_Previews: PreviewProvider {
