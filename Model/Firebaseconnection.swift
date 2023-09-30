@@ -18,7 +18,8 @@ struct Firebaseconnection: App {
     }
     var body: some Scene{
         WindowGroup{
-            ContentView()
+          //  ContentView()
+            Splash1()
         }
     }
     
