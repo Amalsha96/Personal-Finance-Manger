@@ -81,10 +81,7 @@ struct SideMenuView: View {
                 .padding()
                 .offset(y:-200)
 
-            Text("Don’t worry.Enter your email and we’ll send you a link to reset your password.")
-             .padding()
-             .offset(y:-00)
-             .font(.system(size: 20))
+           
             
        }
             VStack(spacing: 20) {
@@ -134,11 +131,12 @@ struct SideMenuView: View {
             .padding(.vertical)
             .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/,  alignment: .leading)
              .frame(width: isOpen ? 200 : 0)
-            .background(Color.white.opacity(10))
-            .offset(x: isOpen ? 0 : -250)
+            .background(Color.purple.opacity(10))
+            .offset(x: isOpen ? 0 : -60)
              .onTapGesture {
             withAnimation {
                 isOpen.toggle()
+                
                     
             }
             

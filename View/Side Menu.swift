@@ -73,10 +73,7 @@ struct Side_Menu_Previews: PreviewProvider {
                           .padding()
                           .offset(y:-200)
           
-                      Text("Don’t worry.Enter your email and we’ll send you a link to reset your password.")
-                       .padding()
-                       .offset(y:-00)
-                       .font(.system(size: 20))
+                      
                       
                  }
             VStack(spacing: 20) {
@@ -105,7 +102,7 @@ struct Side_Menu_Previews: PreviewProvider {
             .padding(.vertical)
             .frame(maxWidth: .infinity, alignment: .leading)
             .frame(width: isOpen ? 200 : 0)
-            .background(Color.white.opacity(0.1))
+            .background(Color.blue.opacity(0.1))
             .offset(x: isOpen ? 0 : -250)
             .onTapGesture {
                 withAnimation {
